@@ -17,6 +17,16 @@ export default defineNuxtConfig({
 	},
 	app: {
 		head: {
+			title: 'Adam Karmiński - Notes and stuff',
+			meta: [
+				{
+					name: 'description',
+					content:
+						"It's my personal website. Here you can find my social profiles, articles and notes.",
+				},
+				{ property: 'og:title', content: "👋 I'm Adam, nice to meet you" },
+				{ property: 'og:image', content: '/karminski_linkimage.jpg' },
+			],
 			bodyAttrs: {
 				class: 'bg-background text-text font-sans dark',
 			},
