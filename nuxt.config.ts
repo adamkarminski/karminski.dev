@@ -6,7 +6,11 @@ export default defineNuxtConfig({
 		'@nuxtjs/google-fonts',
 		'magic-regexp/nuxt',
 	],
-	content: {},
+	content: {
+		markdown: {
+			anchorLinks: false
+		}
+	},
 	googleFonts: {
 		families: {
 			Inter: [400, 700, 900],
