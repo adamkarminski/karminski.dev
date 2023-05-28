@@ -8,3 +8,4 @@ node_modules
 .yarn
 dist
 .DS_Store
+*.pem
