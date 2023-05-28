@@ -1,21 +1,22 @@
 <template>
 	<SectionCard>
 		<div class="flex items-center gap-5">
-			<div class="flex flex-1 flex-col">
+			<div class="flex flex-1 flex-col gap-2">
 				<h2 class="text-3xl font-black">
 					Hi,
 					<span
-						class="bg-gradient-to-r from-emerald-600 to-emerald-400 bg-clip-text text-transparent transition-colors"
+						class="bg-gradient-to-r from-emerald-600 to-emerald-400 bg-clip-text text-transparent"
 					>
 						Adam
 					</span>
 					here.
 				</h2>
-				<p class="mt-2 text-text-weak">
-					CTO and co-founder of Bethink and
-					<a href="https://klasa.io" rel="noopener" target="_blank">Klasa.io</a>.
+				<p class="text-text-weak">
+					Co-founder and CTO of Bethink and
+					<a href="https://klasa.io" rel="noopener" target="_blank">Klasa.io</a>. Co&#8209;founder&nbsp;of&nbsp;<a href="https://dailyboard.io" rel="noopener" target="_blank">Dailyboard</a>.
 				</p>
-				<div class="mt-6 flex items-center space-x-6 md:order-2">
+				
+				<div class="mt-4 flex items-center space-x-6 md:order-2">
 					<a
 						href="https://pl.linkedin.com/in/adamkarminski"
 						class="fill-text-weak transition-colors hover:fill-emerald-400"

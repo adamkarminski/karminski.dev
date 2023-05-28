@@ -9,9 +9,12 @@
 			</div>
 		</div>
 	</header>
-	<main class="mx-auto max-w-3xl mt-10 px-4 pb-36">
+	<main class="mx-auto max-w-3xl mt-10 px-4">
 		<slot />
 	</main>
+	<footer class="mt-20 mb-36">
+		<p class="text-center text-sm text-text-weak">&copy; by Adam Karmiński</p>
+	</footer>
 </template>
 
 <script setup lang="ts"></script>

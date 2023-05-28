@@ -6,8 +6,4 @@
 	a, a.router-link-active {
 		@apply text-text-primary hover:text-text-primary-hover transition-colors
 	}
-
-	/* a.router-link-active {
-		@apply text-text-primary
-	} */
 }
