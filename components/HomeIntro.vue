@@ -12,10 +12,15 @@
 					here.
 				</h2>
 				<p class="text-text-weak">
-					Co-founder and CTO of <a href="https://bethink.tech" rel="noopener" target="_blank">Bethink</a> and
-					<a href="https://klasa.io" rel="noopener" target="_blank">Klasa.io</a>. Co&#8209;founder of <a href="https://dailyboard.io" rel="noopener" target="_blank">Dailyboard</a>.
+					Co-founder and CTO of
+					<a href="https://bethink.tech" rel="noopener" target="_blank">Bethink</a>
+					and <a href="https://klasa.io" rel="noopener" target="_blank">Klasa.io</a>.
+					Co&#8209;founder of
+					<a href="https://dailyboard.io" rel="noopener" target="_blank"
+						>Dailyboard</a
+					>.
 				</p>
-				
+
 				<div class="mt-4 flex items-center space-x-6 md:order-2">
 					<a
 						href="https://pl.linkedin.com/in/adamkarminski"
@@ -71,11 +76,11 @@
 					</a>
 				</div>
 			</div>
-			<div class="self-stretch flex items-start md:items-center flex-shrink-0">
+			<div class="flex flex-shrink-0 items-start self-stretch md:items-center">
 				<img
-					src="https://res.cloudinary.com/dryijgi4m/image/upload/v1685114334/AK-Portrait-small-round_f1rguk.jpg"
-					alt="Adam"
-					class="h-16 w-16 sm:w-24 sm:h-24 md:h-36 md:w-36 rounded-full"
+					src="/AK_Avatar_Emerald.png"
+					alt="Adam's face."
+					class="h-16 w-16 rounded-full sm:h-24 sm:w-24 md:h-36 md:w-36"
 				/>
 			</div>
 		</div>
