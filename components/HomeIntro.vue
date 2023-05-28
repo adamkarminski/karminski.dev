@@ -13,7 +13,7 @@
 				</h2>
 				<p class="text-text-weak">
 					Co-founder and CTO of Bethink and
-					<a href="https://klasa.io" rel="noopener" target="_blank">Klasa.io</a>. Co&#8209;founder&nbsp;of&nbsp;<a href="https://dailyboard.io" rel="noopener" target="_blank">Dailyboard</a>.
+					<a href="https://klasa.io" rel="noopener" target="_blank">Klasa.io</a>. Co&#8209;founder of <a href="https://dailyboard.io" rel="noopener" target="_blank">Dailyboard</a>.
 				</p>
 				
 				<div class="mt-4 flex items-center space-x-6 md:order-2">
@@ -71,11 +71,11 @@
 					</a>
 				</div>
 			</div>
-			<div>
+			<div class="self-stretch flex items-start md:items-center flex-shrink-0">
 				<img
 					src="https://res.cloudinary.com/dryijgi4m/image/upload/v1685114334/AK-Portrait-small-round_f1rguk.jpg"
 					alt="Adam"
-					class="h-36 w-36 rounded-full"
+					class="h-16 w-16 sm:w-24 sm:h-24 md:h-36 md:w-36 rounded-full"
 				/>
 			</div>
 		</div>
