@@ -12,7 +12,7 @@
 					here.
 				</h2>
 				<p class="text-text-weak">
-					Co-founder and CTO of Bethink and
+					Co-founder and CTO of <a href="https://bethink.tech" rel="noopener" target="_blank">Bethink</a> and
 					<a href="https://klasa.io" rel="noopener" target="_blank">Klasa.io</a>. Co&#8209;founder of <a href="https://dailyboard.io" rel="noopener" target="_blank">Dailyboard</a>.
 				</p>
 				
