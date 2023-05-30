@@ -13,7 +13,7 @@
 		<slot />
 	</main>
 	<footer class="mt-20 mb-36">
-		<p class="text-center text-sm text-text-weak">&copy; by Adam Karmiński</p>
+		<p class="text-center text-sm text-text-ghost">&copy; by Adam Karmiński</p>
 	</footer>
 </template>
 

@@ -4,4 +4,7 @@
 </template>
 
 <script setup lang="ts">
+useHead({
+	titleTemplate: 'Notes - Adam Karmiński'
+})
 </script>

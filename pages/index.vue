@@ -5,18 +5,22 @@
 			<a :href="item.url" target="_blank">
 				<h3 class="text-lg font-black mb-2">{{ item.title }}</h3>
 			</a>
-			<p v-html="item.description"></p>
+			<p class="text-text-weak" v-html="item.description"></p>
 		</HomeSection>
 		<HomeSection title="Talks and appearances" :items="appearances" v-slot="{ item }">
 			<a :href="item.url" target="_blank">
 				<h3 class="text-lg font-black mb-2">{{ item.title }}</h3>
 			</a>
-			<p v-html="item.description"></p>
+			<p class="text-text-weak" v-html="item.description"></p>
 		</HomeSection>
 	</div>
 </template>
 
 <script setup lang="ts">
+	useHead({
+		titleTemplate: 'Adam Karmiński - Notes and stuff'
+	})
+
 	const articles = [
 		{
 			key: 1,

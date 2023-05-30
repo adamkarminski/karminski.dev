@@ -3,9 +3,11 @@
 		<SectionCard class="mb-10" v-for="note in notes" :key="note._path">
 			<article>
 				<header>
-					<h1 class="mb-5 text-xl font-black">
-						{{ getTitleFromPath(note._path) }}
-					</h1>
+					<NuxtLink :to="note._path">
+						<h1 class="mb-5 text-xl font-black">
+							{{ getTitleFromPath(note._path) }}
+						</h1>
+					</NuxtLink>
 				</header>
 				<div class="prose prose-invert">
 					<ContentRenderer :value="note"></ContentRenderer>
