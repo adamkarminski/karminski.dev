@@ -1,0 +1,6 @@
+### Extensions bisecting in VS Code
+I had a weird problem with long file saving times in VS Code. It happened for all file types - `.vue`, `.ts`, `.json` etc.  Looking for an answer, I found [this issue on GitHub](https://github.com/microsoft/vscode/issues/167359). It recommends, among other things, using `Help: Start extension bisect` command in VS Code.
+
+The command performs a bisection on enabled extensions. Disables half of them and asks you - is the problem resolved? If so, it disables half of the half. If not, it disables the other half of extensions and so on.
+
+After 5 iterations it turned out that the problem was with... Pylance, a Python extension from Microsoft. I'd never figure it out without extension bisect.
