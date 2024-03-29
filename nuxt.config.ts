@@ -5,11 +5,12 @@ export default defineNuxtConfig({
 		'@nuxtjs/tailwindcss',
 		'@nuxtjs/google-fonts',
 		'magic-regexp/nuxt',
+		'@nuxthq/studio',
 	],
 	content: {
 		markdown: {
-			anchorLinks: false
-		}
+			anchorLinks: false,
+		},
 	},
 	googleFonts: {
 		families: {
