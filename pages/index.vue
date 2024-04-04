@@ -28,7 +28,7 @@
 			categories: 'Product management',
 			description:
 				"An article on the setup I use to effectively manage development of Bethink's core product.",
-			url: 'https://geek.justjoin.it/engineering-stages-czyli-jak-rozwijac-zespol/',
+			url: 'https://medium.com/bethink-pl/avoid-the-sea-of-mold-a-scalable-jira-setup-for-managing-your-product-and-teams-projects-103862249fad',
 		},
 		{
 			key: 3,
