@@ -78,5 +78,12 @@
 				'Talk based on my article - Building the Bridge of Trust (see Articles).',
 			url: 'https://www.youtube.com/watch?v=twq1TKV4mRU&t=1s&pp=ygUPYWRhbSBrYXJtacWEc2tp',
 		},
+		{
+			key: 4,
+			title: '🇵🇱 The silent killers of Agile - Taby vs Spacje podcast',
+			description:
+				'A conversation with <a href="https://www.linkedin.com/in/adam-polak-tsh/" target="_blank">Adam Polak</a> and <a href="https://www.linkedin.com/in/andrzej-wysoczanski/" target="_blank">Andrzej Wysoczański</a> where I share my thoughts on the not-so-obvious hindrances to agile development.',
+			url: 'https://www.youtube.com/watch?v=OJj_pK2iMDU',
+		},
 	];
 </script>
